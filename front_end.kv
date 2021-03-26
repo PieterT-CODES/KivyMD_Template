@@ -1,0 +1,16 @@
+ScreenManager:
+    HomeScreen: 
+    FirstScreen: 
+
+<HomeScreen>:
+    name: 'homescreen'
+    MDRaisedButton: 
+        text: "Switch (actual home screen)"
+        on_press: app.root.current = 'firstscreen'
+
+<FirstScreen>:   
+    name: 'firstscreen'
+    MDRaisedButton: 
+        text: "Switch (actual first screen)"
+        on_press: app.root.current = 'homescreen'
+        
