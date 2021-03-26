@@ -1,2 +1,2 @@
 # KivyMD_Template
-Start project with prepared construction and Screen Manager
+Start project with prepared construction, Screen Manager and virtual enviroment with 
